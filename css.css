@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    max-width: 960px;
+    margin: 0px auto;
+
+}
+#layer{
+   
+
+}
+div.MenuTop{
+ 
+}
+div.itemtop{
+    background-color: rgb(166, 95, 14);
+    padding: 10px 10px 1px 60px;
+}
+div.itembottom{
+    background-color: rgb(255, 255, 255);
+   
+}
+div.itemtop ul{
+    display: flex;
+    list-style: none;
+}
+div.itemtop ul li {
+    margin-right: 200px;
+}
+div.itemtop ul li a img{
+width: 30px;
+}
+a.link{
+text-decoration: none;
+}
+span.sdt{
+    color: black;
+}
+#search-box{
+background: #fff;
+border-radius: 30px;
+}
+#search-box #search-text{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 14px;
+    width: 0;
+    padding: 0;
+    transition: all 1s ease-in-out;
+   
+}
+#search-box:hover #search-text, #search-box #search-text:valid {
+    width: 170px;
+    padding: 6px 15px;
+   
+}
+#search-box #search-btn{
+    background-color: #fff;
+    border: none;
+    padding: 7px 10px;
+    cursor: pointer;
+    border-radius: 50%;
+   
+}
+div.itemtop ul li a.link .btnlogin{
+  padding: 7px 14px;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+ 
+}
+div.itemtop ul li a.link #login{
+    background-color: #4CAF50
+}
+div.itemtop ul li a.link #register{
+background-color: #008CBA;
+}
+div.itemtop ul li #language{
+    margin-right: 30px;
+  
+}
+nav.container{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+#logo {
+    padding: 20px 0;
+}
+#logo i{
+    max-width: 50px;
+    height: auto;
+}
+#main-menu{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+#main-menu li a{
+    display: block;
+    padding: 18px 40px;
+    text-decoration: 5;
+}
+#main-menu li {
+    position: relative;
+}
+
+#main-menu ul.sub-menu{
+    position: absolute;
+    list-style: none;
+    background-color: rgb(255, 255, 255);
+    margin-left: 15px;
+    padding: 4px 10px;
+    width: 200px;
+    display: none;
+    border-radius: 0px 0px 10px 10px;
+    
+}
+#main-menu li:hover>ul.sub-menu{
+    display: block;
+   
+    z-index: 100;
+}
+#main-menu ul.sub-menu a{
+    padding: 8px 15px;
+    left: 0;
+}
+#main-menu ul.sub-menu ul.sub-menu {
+    left: 200px;
+    top: -15px
+   
+}
+#itebtm-b{
+    color: #000000;
+}
+
